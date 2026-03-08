@@ -3,4 +3,4 @@
 
 |Week|Day|Topic|Link|
 |---|---|---|---|
-|1|1|Java Basics: How Java Works|[link](./Week-1/Day-1/README.md)|
+|1|1|Java Basics: How Java Works|[link](./Week-1/Day-1/)|
