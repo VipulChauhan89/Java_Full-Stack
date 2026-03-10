@@ -6,7 +6,7 @@
 * High-level programming language.
 * Object-Oriented.
 * Platform Independent.
-* Write Once Run Anywhere (WORA).
+* Write Once Run Anywhere `(WORA)`.
 
 ***Meaning:*** Java code can run on any system with JVM installed.
 
@@ -15,7 +15,7 @@
 **JDK (Java Development Kit)**
 
 ***Contains:***
-* Compiler (javac)
+* Compiler `(javac)`
 * Debugger
 * Tools
 * JRE
@@ -41,7 +41,7 @@
 * Garbage collection
 * Platform independence
 
-***JVM converts bytecode → machine code.***
+***JVM converts `bytecode → machine code`.***
 
 ---
 ### 3. Java Program Execution Flow
@@ -59,9 +59,9 @@ Machine Code
 Program Runs
 ```
 ***Steps:***
-* Write code in .java
-* Compile using javac
-* Bytecode .class generated
+* Write code in `.java`
+* Compile using `javac`
+* Bytecode `.class` generated
 * JVM executes bytecode.
 
 ---
@@ -131,9 +131,9 @@ java HelloWorld
 ---
 ### 8. Important Files
 * Java source file
-* HelloWorld.java
+* `HelloWorld.java`
 * Compiled bytecode
-* HelloWorld.class
+* `HelloWorld.class`
 
 ---
 ### 9. Key Concepts to Remember
