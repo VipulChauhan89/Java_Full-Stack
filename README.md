@@ -5,3 +5,4 @@
 |---|---|---|---|
 |1|1|Java Basics: How Java Works|[link](./Week-1/Day-1/)|
 |1|2|Variables & Data Types|[link](./Week-1/Day-2/)|
+|1|3|Operators in Java|[link](./Week-1/Day-3/)|
