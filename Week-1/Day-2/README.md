@@ -7,18 +7,18 @@
 ### 1. Variable
 ***Definition:*** A variable is a named memory location used to store data.
 
-***Example:*** **int age = 22;**
+***Example:*** `int age = 22;`
 
 **Meaning:**
 
-* ***int →*** data type
-* ***age →*** variable name
-* ***22 →*** value stored
+* ***`int` →*** data type
+* ***`age` →*** variable name
+* ***`22` →*** value stored
 
 ---
 ### 2. Variable Declaration
 
-***Syntax:*** datatype variableName;
+***Syntax:*** `datatype variableName;`
 
 ***Example:***
 ```java
@@ -67,27 +67,27 @@ These store references to objects.
 * Classes
 * Objects
 
-***Example:*** String name = "Vipul";
+***Example:*** `String name = "Vipul";`
 
 ---
 ### 6. Type Casting
 #### 1. Implicit Casting (Automatic)
-Smaller type → larger type.
+`Smaller type → larger type.`
 ```java
 int num = 10;
 double value = num;
 ```
 #### 2. Explicit Casting (Manual)
-Larger type → smaller type.
+`Larger type → smaller type.`
 ```java
 double num = 10.5;
 int value = (int) num;
 ```
-***Output becomes:*** 10 (decimal removed)
+***Output becomes:*** `10` (decimal removed)
 
 ---
 ### 7. Constants
-Use final to make variables constant.
+Use `final` to make variables constant.
 ```java
 final double PI = 3.14159;
 ```
@@ -122,7 +122,7 @@ int a = 10, b = 20, c = 30;
 int age = 22;
 System.out.println(age);
 ```
-***Output:*** 22
+***Output:*** `22`
 
 ***Example:***
 ```java
@@ -146,7 +146,7 @@ System.out.println("Age: " + age);
 **Write programs for:**
 * Store and print name, age, and city.
 * Convert Celsius to Fahrenheit.
-**Formula:** F = (C × 9/5) + 32
+**Formula:** `F = (C × 9/5) + 32`
 * Calculate area of circle.
-**Formula:** Area = π × r × r
+**Formula:** `Area = π × r × r`
 * Swap two numbers.
