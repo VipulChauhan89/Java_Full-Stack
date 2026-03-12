@@ -7,3 +7,4 @@
 |1|2|Variables & Data Types|[link](./Week-1/Day-2/)|
 |1|3|Operators in Java|[link](./Week-1/Day-3/)|
 |1|4|Control Flow in Java|[link](./Week-1/Day-4/)|
+|1|5|Methods / Functions is Java|[link](./Week-1/Day-5/)|
