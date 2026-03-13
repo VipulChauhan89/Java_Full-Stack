@@ -1,6 +1,6 @@
 # Week 1 — Day 5
 ## Methods / Functions in Java
-### **Goal: Learn how to organize code into reusable blocks.***
+### ***Goal: Learn how to organize code into reusable blocks.***
 
 ---
 ### 1. What is a Method
