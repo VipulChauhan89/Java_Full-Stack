@@ -9,3 +9,4 @@
 |1|4|Control Flow in Java|[link](./Week-1/Day-4/)|
 |1|5|Methods / Functions is Java|[link](./Week-1/Day-5/)|
 |1|6|Arrays in Java|[link](./Week-1/Day-6/)|
+|1|7|Strings in Java|[link](./Week-1/Day-7/)|
