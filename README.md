@@ -10,3 +10,4 @@
 |1|5|Methods / Functions is Java|[link](./Week-1/Day-5/)|
 |1|6|Arrays in Java|[link](./Week-1/Day-6/)|
 |1|7|Strings in Java|[link](./Week-1/Day-7/)|
+|2|8|Object-Oriented Programming (OOP) Basics in Java|[link](./Week-2/Day-8/)|
