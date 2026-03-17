@@ -1,6 +1,6 @@
 # Week 1 — Day 7
-## Strings in Java
-### ***Goal: Learn how to store and manipulate text data.***
+## Strings, Exception Handling and Input in Java
+### ***Goal: Learn how to store and manipulate text data, Basics of Exception handling and Input in Java.***
 
 ---
 ### 1. What is a String
@@ -200,13 +200,193 @@ Hello World
 |Memory|Slightly less overhead|Slightly higher overhead|
 
 ---
-### 13. Key Concepts to Remember
+### 13. What is Exception
+An Exception is an error that occurs during program execution and stops normal flow.
+***Example:*** `int a = 10 / 0;`
+
+***Output:*** `Exception in thread "main" java.lang.ArithmeticException`
+
+---
+### 14. Why Exception Handling is Needed
+***Without handling:***
+* Program crashes ❌
+* Bad user experience ❌
+
+***With handling:***
+* Program continues running ✅
+* Errors handled gracefully ✅
+
+---
+### 15. Types of Exceptions
+* Checked Exceptions
+    * Checked at compile time
+    * Must be handled
+    
+    ***Examples:***
+    ```
+    IOException
+    SQLException
+    ```
+* Unchecked Exceptions
+    * Occur at runtime
+    
+    ***Examples:***
+    ```
+    ArithmeticException
+    NullPointerException
+    InputMismatchException
+    ```
+
+---
+### 16. try-catch Block
+Used to handle exceptions.
+
+***Syntax:***
+```java
+try {
+    // risky code
+} catch (Exception e) {
+    // handling code
+}
+```
+
+***Example:***
+```java
+try {
+    int a = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Cannot divide by zero");
+}
+```
+
+***Output:*** `Cannot divide by zero`
+
+---
+### 17. finally Block
+Always executes (used for cleanup).
+
+***Example:***
+```java
+try {
+    int a = 10 / 2;
+} catch (Exception e) {
+    System.out.println("Error");
+} finally {
+    System.out.println("Execution completed");
+}
+```
+
+---
+### 18. Multiple catch Blocks
+Handle different exceptions separately.
+```java
+try {
+    int arr[] = new int[5];
+    arr[10] = 50;
+} catch (ArithmeticException e) {
+    System.out.println("Arithmetic error");
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Index out of bounds");
+}
+```
+
+---
+### 19. throw Keyword
+Used to manually throw exception.
+```java
+int age = -5;
+
+if (age < 0) {
+    throw new IllegalArgumentException("Invalid age");
+}
+```
+
+---
+### 20. throws Keyword
+Used to declare exception.
+```java
+void readFile() throws IOException {
+}
+```
+
+---
+### 21. Common Exceptions
+
+|Exception|Cause|
+|---|---|
+|ArithmeticException|Divide by zero|
+|NullPointerException|Null reference|
+|InputMismatchException|Wrong input type|
+|ArrayIndexOutOfBoundsException|Invalid index|
+
+---
+### 22. Taking Input using Scanner
+Used to read input from user.
+
+***Example:***
+```java
+Scanner sc = new Scanner(System.in);
+
+String input = sc.nextLine();
+```
+
+---
+### 23. Input as String
+Always take input as String for flexibility.
+
+***Example:***
+```java
+String input = sc.nextLine();
+```
+
+---
+### 24. Converting Input
+Convert String to required type.
+***Example:***
+```java
+int num = Integer.parseInt(input);
+```
+
+---
+### 25. Checking Empty Input
+Ensure input is not empty.
+
+***Example:***
+```java
+if (input.isEmpty()) {
+    System.out.println("Input cannot be empty");
+}
+```
+---
+### 26. Input Handling with Exception
+```java
+Scanner sc = new Scanner(System.in);
+
+try {
+    int num = sc.nextInt();
+} catch (Exception e) {
+    System.out.println("Invalid input!");
+}
+```
+
+---
+### 27. Key Concepts to Remember
 * String = sequence of characters.
 * Strings are immutable.
 * Stored in String Pool.
 * Use .equals() for comparison.
 * .length() gives string size.
 * StringBuilder and Stringbuffer are mutable but StringBuilder is faster.
+* Exception = runtime error
+* Use try-catch to handle errors
+* finally always runs
+* throw is used to create exception
+* throws is used to declare exception
+* Handle specific exceptions (not generic)
+* Always take input as String
+* Convert using parse methods
+* Use try-catch for safety
+* Validate before processing
 
 ## Practice Programs
 ***Write programs for:***
@@ -247,6 +427,23 @@ Hello World
     Input: Java is powerful
     Output: 3
     ```
+* Exception Handling for these Cases
+
+    ```
+    Handle divide by zero
+    Handle invalid input
+    ```
+* Array Index Error
+    
+    ```
+    Access invalid index and handle exception
+    ```
+* Age Validation
+    
+    ```
+    Input: -1
+    Output: Invalid age
+    ```
 
 ## ✅ After Week 1, you now understand:
 * Java basics
@@ -256,5 +453,7 @@ Hello World
 * Methods
 * Arrays
 * Strings
+* Exception Handling
+* Input
 
 This is the foundation every Java backend developer needs.
