@@ -3,12 +3,12 @@
 
 |Week|Day|Topic|Link|
 |---|---|---|---|
-|1|1|Java Basics: How Java Works|[link](./Week-1/Day-1/)|
-|1|2|Variables & Data Types|[link](./Week-1/Day-2/)|
-|1|3|Operators in Java|[link](./Week-1/Day-3/)|
-|1|4|Control Flow in Java|[link](./Week-1/Day-4/)|
-|1|5|Methods / Functions is Java|[link](./Week-1/Day-5/)|
-|1|6|Arrays in Java|[link](./Week-1/Day-6/)|
-|1|7|Strings, Exception Handling and Input in Java|[link](./Week-1/Day-7/)|
-|2|8|Object-Oriented Programming (OOP) Basics in Java|[link](./Week-2/Day-8/)|
-|2|9|Encapsulation & Access Modifiers|[link](./Week-2/Day-9/)|
+|01|01|Java Basics: How Java Works|[link](./Week-01/Day-01/)|
+|01|02|Variables & Data Types|[link](./Week-01/Day-02/)|
+|01|03|Operators in Java|[link](./Week-01/Day-03/)|
+|01|04|Control Flow in Java|[link](./Week-01/Day-04/)|
+|01|05|Methods / Functions is Java|[link](./Week-01/Day-05/)|
+|01|06|Arrays in Java|[link](./Week-01/Day-06/)|
+|01|07|Strings, Exception Handling and Input in Java|[link](./Week-01/Day-07/)|
+|02|08|Object-Oriented Programming (OOP) Basics in Java|[link](./Week-02/Day-08/)|
+|02|09|Encapsulation & Access Modifiers|[link](./Week-02/Day-09/)|

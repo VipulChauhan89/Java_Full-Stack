@@ -1,4 +1,4 @@
-# Week 1 — Day 2
+# Week 01 — Day 02
 
 ## Variables & Data Types
 ### ***Goal: Understand how data is stored and used in Java programs.***

@@ -1,4 +1,4 @@
-# Week 1 — Day 6
+# Week 01 — Day 06
 ## Arrays in Java
 ### ***Goal: Learn how to store multiple values of the same type in one variable.***
 

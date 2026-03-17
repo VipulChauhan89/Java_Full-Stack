@@ -1,4 +1,4 @@
-# Week 1 — Day 1
+# Week 01 — Day 01
 ## Java Basics: How Java Works
 ### **Goal:** ***Understand how Java programs run internally.***
 

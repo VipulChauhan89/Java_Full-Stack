@@ -1,4 +1,4 @@
-# Week 1 — Day 7
+# Week 01 — Day 07
 ## Strings, Exception Handling and Input in Java
 ### ***Goal: Learn how to store and manipulate text data, Basics of Exception handling and Input in Java.***
 

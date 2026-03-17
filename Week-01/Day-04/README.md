@@ -1,4 +1,4 @@
-# Week 1 — Day 4
+# Week 01 — Day 04
 ## Control Flow in Java
 ### ***Goal: Learn how a program makes decisions and repeats tasks.***
 

@@ -1,4 +1,4 @@
-# Week 1 — Day 5
+# Week 01 — Day 05
 ## Methods / Functions in Java
 ### ***Goal: Learn how to organize code into reusable blocks.***
 

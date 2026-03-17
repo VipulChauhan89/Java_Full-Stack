@@ -1,4 +1,4 @@
-# Week 1 — Day 3
+# Week 01 — Day 03
 ## Operators in Java
 
 ### ***Goal: Learn how to perform operations on variables and values.***

@@ -1,4 +1,4 @@
-# Week 2 — Day 8
+# Week 02 — Day 08
 ## Object-Oriented Programming (OOP) Basics in Java
 ### ***Goal: Understand Object-Oriented Programming, which is the foundation of modern backend development.***
 

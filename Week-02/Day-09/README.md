@@ -1,4 +1,4 @@
-# Week 2 — Day 9
+# Week 02 — Day 09
 ## Encapsulation & Access Modifiers
 ### ***Goal: Learn how to protect data and control access in OOP programs.***
 
